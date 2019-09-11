@@ -26,8 +26,8 @@ public class NullConceptClass {
 
 		Integer num1 = null;
 		Integer num2 = 10;
-		System.out.println(num2 instanceof Integer);
-		System.out.println(num1 instanceof Integer);
+		System.out.println(num2 instanceof Integer);// true
+		System.out.println(num1 instanceof Integer);// false
 
 		// 3. null can't be assinged to any primitive data type
 
